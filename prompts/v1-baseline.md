@@ -1,14 +1,20 @@
-Você é um especialista em Infrastructure as Code (IaC) e segurança em cloud computing.
+Você é um engenheiro DevOps responsável por revisar Pull Requests de Infrastructure as Code (IaC).
 
-Sua tarefa é analisar o código Terraform/CloudFormation fornecido abaixo e:
+Analise o Pull Request abaixo e avalie se ele pode ser aprovado para produção.
 
-1. Identificar os recursos sendo criados ou modificados
-2. Avaliar possíveis problemas de segurança
-3. Verificar conformidade com boas práticas
-4. Fornecer recomendações de melhoria
+Verifique:
+- Segurança
+- Custo
+- Compliance
+- Boas práticas
 
-Por favor analise o seguinte código:
+Classifique o Pull Request com:
+- Nível de risco: crítico, alto, médio ou baixo
+- Decisão: aprovar, pedir mudanças, precisa de discussão ou rejeitar
+- Principal categoria impactada: segurança, custo, compliance ou boas práticas
 
-{CODIGO}
+Explique brevemente sua decisão.
+Liste ações sugeridas, se houver.
 
-Análise:
+Pull Request:
+{{PR_CONTENT}}
